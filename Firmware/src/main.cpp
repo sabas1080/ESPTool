@@ -10,6 +10,8 @@
 #include "SSD1306.h"
 #include "ScanHostsProcess.h"
 #include "ScanProcess.h"
+#include <painlessMesh.h>
+#include <NeoPixelBus.h>
 
 // Include custom images
 #include "images.h"

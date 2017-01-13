@@ -99,7 +99,7 @@ void ConnectProcess::showConnectedSummary() {
   if (tempScreen != NULL) {
     delete tempScreen;
   }
-  mCurrentStatus = CONNECTED;
+  mCurrentStatus = CONNECTE;
 }
 
 void ConnectProcess::showConnectionError() {
@@ -172,7 +172,7 @@ void ConnectProcess::handleInput(button_t button, status_t action) {
         mDidDelete = true;
       }
     }
-  } else if (mCurrentStatus == CONNECTED) {
+  } else if (mCurrentStatus == CONNECTE) {
     ListScreen *screen = static_cast<ListScreen *>(this->mScreen);
     if (action == Clicked) {
       switch (button) {

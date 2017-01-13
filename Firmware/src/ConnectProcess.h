@@ -17,7 +17,7 @@ typedef enum {
   UNKNOWN,
   PROMPTING,
   CONNECTING,
-  CONNECTED,
+  CONNECTE,
   FAILED
 } connect_status_t;
 
